@@ -1,0 +1,23 @@
+import { AdjacentContainer } from "./containers";
+declare const Components: {
+    ClearIndicator: <Option, IsMulti extends boolean, Group extends import("react-select").GroupBase<Option>>({ innerProps, className, cx, children, }: import("react-select").ClearIndicatorProps<Option, IsMulti, Group>) => import("react/jsx-runtime").JSX.Element;
+    DropdownIndicator: <Option_1, IsMulti_1 extends boolean, Group_1 extends import("react-select").GroupBase<Option_1>>({ innerProps, cx, children, className, selectProps: { menuIsOpen }, }: import("react-select").DropdownIndicatorProps<Option_1, IsMulti_1, Group_1>) => import("react/jsx-runtime").JSX.Element;
+    LoadingIndicator: <Option_2, IsMulti_2 extends boolean, Group_2 extends import("react-select").GroupBase<Option_2>>({ innerProps, className, cx, }: import("react-select").LoadingIndicatorProps<Option_2, IsMulti_2, Group_2>) => import("react/jsx-runtime").JSX.Element;
+    SelectContainer: <Option_3, IsMulti_3 extends boolean, Group_3 extends import("react-select").GroupBase<Option_3>>({ innerProps, selectProps: { isDisabled, isRtl }, hasValue, cx, className, children, }: import("react-select").ContainerProps<Option_3, IsMulti_3, Group_3>) => import("react/jsx-runtime").JSX.Element;
+    Control: <Option_4, IsMulti_4 extends boolean, Group_4 extends import("react-select").GroupBase<Option_4>>({ className, cx, children, innerRef, innerProps, isDisabled, isFocused, menuIsOpen, selectProps: { size, customStyles, name }, }: import("react-select").ControlProps<Option_4, IsMulti_4, Group_4>) => import("react/jsx-runtime").JSX.Element;
+    Input: <Option_5, IsMulti_5 extends boolean, Group_5 extends import("react-select").GroupBase<Option_5>>(props: import("react-select").InputProps<Option_5, IsMulti_5, Group_5>) => import("react/jsx-runtime").JSX.Element;
+    Placeholder: <Option_6, IsMulti_6 extends boolean, Group_6 extends import("react-select").GroupBase<Option_6>>({ innerProps, children, className, cx, }: import("react-select").PlaceholderProps<Option_6, IsMulti_6, Group_6>) => import("react/jsx-runtime").JSX.Element;
+    Menu: <Option_7, IsMulti_7 extends boolean, Group_7 extends import("react-select").GroupBase<Option_7>>({ className, cx, children, innerProps, innerRef, placement, selectProps: { onMenuClose, menuIsOpen, customStyles, styles }, }: import("react-select").MenuProps<Option_7, IsMulti_7, Group_7>) => import("react/jsx-runtime").JSX.Element;
+    MenuList: <Option_8, IsMulti_8 extends boolean, Group_8 extends import("react-select").GroupBase<Option_8>>(props: import("react-select").MenuListProps<Option_8, IsMulti_8, Group_8>) => import("react/jsx-runtime").JSX.Element;
+    Option: <Option_9, IsMulti_9 extends boolean, Group_9 extends import("react-select").GroupBase<Option_9>>(props: import("react-select").OptionProps<Option_9, IsMulti_9, Group_9>) => import("react/jsx-runtime").JSX.Element;
+    SingleValue: <Option_10, IsMulti_10 extends boolean, Group_10 extends import("react-select").GroupBase<Option_10>>({ innerProps, children, cx, className, isDisabled, data, getValue, }: import("react-select").SingleValueProps<Option_10, IsMulti_10, Group_10>) => import("react/jsx-runtime").JSX.Element;
+    MultiValue: () => any;
+    MultiValueContainer: () => any;
+    MultiValueRemove: () => any;
+    ValueContainer: <Option_11, IsMulti_11 extends boolean, Group_11 extends import("react-select").GroupBase<Option_11>>(props: import("react-select").ValueContainerProps<Option_11, IsMulti_11, Group_11>) => import("react/jsx-runtime").JSX.Element;
+    IndicatorsContainer: <Option_12, IsMulti_12 extends boolean, Group_12 extends import("react-select").GroupBase<Option_12>>({ className, cx, innerProps, children, }: import("react-select").IndicatorsContainerProps<Option_12, IsMulti_12, Group_12>) => import("react/jsx-runtime").JSX.Element;
+    LoadingMessage: <Option_13, IsMulti_13 extends boolean, Group_13 extends import("react-select").GroupBase<Option_13>>({ innerProps, cx, className, selectProps: { size }, }: import("react-select").NoticeProps<Option_13, IsMulti_13, Group_13>) => import("react/jsx-runtime").JSX.Element;
+    IndicatorSeparator: any;
+};
+export { AdjacentContainer };
+export default Components;
