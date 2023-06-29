@@ -27,8 +27,8 @@
   "modifiedAt": 1688016428143.3962,
   "plugins": [],
   "options": {
-    "outDir": "build",
-    "path": "app",
-    "backend": "/"
+    "backend": "/",
+    "path": "/app",
+    "outDir": "build"
   }
 }
